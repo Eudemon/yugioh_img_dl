@@ -1,0 +1,22 @@
+{
+  "name": "yugioh_card",
+  "version": "1.0.0",
+  "description": "let's download images in batch from\r https://db.ygoprodeck.com/api/v7/cardinfo.php",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eudemon/yugioh_img_dl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eudemon/yugioh_img_dl/issues"
+  },
+  "homepage": "https://github.com/Eudemon/yugioh_img_dl#readme",
+  "dependencies": {
+    "image-downloader": "^4.3.0"
+  }
+}
