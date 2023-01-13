@@ -1,7 +1,7 @@
 const fs = require('fs');
 const download = require('image-downloader');
 
-const rawData = fs.readFileSync('card_info.json');
+const rawData = fs.readFileSync('cardinfo.php.json');
 const data = JSON.parse(rawData).data;
 
 function Download(card) {
@@ -31,7 +31,7 @@ function Download(card) {
 }
 
 // start here
-let index = 0;
+let index = 11900;
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
