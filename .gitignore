@@ -1,5 +1,7 @@
 /node_modules
 /monster/*
 /spell_trap/*
+/cards/*
 !/spell_trap/.gitkeep
 !/monster/.gitkeep
+!/cards/.gitkeep

@@ -8,12 +8,7 @@ function Download(card) {
   if (typeof card.card_images[0].image_url != 'undefined') {
     const name = card.name.replace(/[/\\?%*:|"<>]/g, '');
 
-    let folder = '';
-    if (card.type.includes('onster')) {
-      folder = 'monster';
-    } else {
-      folder = 'spell_trap';
-    }
+    let folder = 'cards';
 
     const url = card.card_images[0].image_url;
     const n = url.lastIndexOf('.');
@@ -31,7 +26,7 @@ function Download(card) {
 }
 
 // start here
-let index = 11900;
+let index = 3000;
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -40,7 +35,7 @@ async function start() {
     const card = data[key];
 
     Download(card);
-    await wait(300);
+    await wait(500);
   }
 }
 
