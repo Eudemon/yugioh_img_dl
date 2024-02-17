@@ -26,7 +26,7 @@ function Download(card) {
 }
 
 // start here
-let index = 12000;
+let index = 12700;
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
